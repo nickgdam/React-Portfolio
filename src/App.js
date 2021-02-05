@@ -6,6 +6,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
+import Footer from "./components/footer"
+
 
 class App extends Component {
   constructor(props) {
@@ -52,6 +54,8 @@ class App extends Component {
             </Navbar.Collapse>
 
           </Navbar>
+
+          <Footer />
 
         </Container>
       </Router>
