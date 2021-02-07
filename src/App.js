@@ -6,7 +6,11 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
-import Footer from "./components/footer"
+import Footer from "./components/footer";
+import Home from "./pages/HomePage";
+import About from "./pages/AboutPage";
+import Contact from "./pages/ContactPage";
+
 
 
 class App extends Component {
@@ -43,17 +47,22 @@ class App extends Component {
           <Navbar className='border-bottom' bg="transparent" expand="lg">
             <Navbar.Brand>Nick Damario</Navbar.Brand>
 
-            <Navbar.Toggle className="border-0" aria-control="navbar-toggle"/>
+            <Navbar.Toggle className="border-0" aria-control="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
-<Link className="nav-link" to="/">Home</Link>
-<Link className="nav-link" to="/about">About</Link>
-<Link className="nav-link" to="/contact">Contact</Link>
+                <Link className="nav-link" to="/">Home</Link>
+                <Link className="nav-link" to="/about">About</Link>
+                <Link className="nav-link" to="/contact">Contact</Link>
 
               </Nav>
             </Navbar.Collapse>
 
           </Navbar>
+          <Route path="/" exact render={() => <Home title={this.state.home.title} subTitle={this.state.home.subtitle} text={this.state.home.text}/>}/>
+          <Route path="/about" render={() => <About title={this.state.about.title}/>}/>
+          <Route path="/contact" render={() => <Contact title={this.state.contact.title}/>}/>
+
+
 
           <Footer />
 
