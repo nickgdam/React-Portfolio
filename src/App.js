@@ -25,8 +25,9 @@ class App extends Component {
       ],
       home: {
         title: 'Portfolio',
-        subTitle: 'Projects',
-        text: 'Check out my Projects below!'
+        text: 'Projects',
+        subTitle: 'check my stuff!'
+        // text: 'Check out my Projects below'
 
       },
       about: {
