@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nick-card {
+  margin: 20px;
+
+}
+.nick-card-image {
+  border-radius: 10px;
+  width: 480px;
+  height: 272px;
+  box-shadow: 0px 0px 3px 1px #ccc
+
+}
+
+.nick-card-title {
+  font-size: 24px;
+  margin: 0px;
+
+}
+
+.nick-card-info {
+  margin-top: 10px;
+  min-height: 100px
+}
+
+.nick-card-sub-title {
+  font-size: 16px;
+  margin: 0px;
+}

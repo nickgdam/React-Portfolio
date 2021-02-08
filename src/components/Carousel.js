@@ -65,7 +65,7 @@ export class Carousel extends Component {
                     link: "https://nickgdam.github.io/Homework-3/",
                     selected: false
                 },{
-                    id: 5,
+                    id: 6,
                     title: "Nick Damario",
                     imgSrc: noteTaker,
                     subTitle: "Nifty Note Taker",
@@ -79,42 +79,40 @@ export class Carousel extends Component {
 
 
     handleCardClick = (id, card) => {
-let items = {...this.state.items};
-items[id].selected = items[id].selected ? false : true;
+console.log(id)
+        let items = [...this.state.items];
 
-items.forEach(item => {
-    if(item.id !== id){
-        item.selected = false;
-    }
-});
-this.setState({
-    items
-});
+        items[id].selected = items[id].selected ? false : true;
+
+        items.forEach(item => {
+            if(item.id !== id) {
+                item.selected = false;
+            }
+        });
+
+        this.setState({
+            items
+        });
     }
 
 
     makeItems = (items) => {
-return items.map(item => {
-    return <Card item={item} onClick={(e => this.handleCardClick(item.id, e))} key ={items.id} />
-})
+        return items.map(item => {
+            return <Card item={item} click={(e => this.handleCardClick(item.id, e))} key={item.id} />
+        })
     }
+
 
     render() {
-        return (
-            <p>
-                <Container fluid={true}>
-                    <Col>
-                    <Row className="justify-content-around">
-                        {this.makeItems(this.state.items)}
-
-                    </Row>
-                    </Col>
-                </Container>
-                
-            </p>
-        )
+        return(
+            <Container fluid={true}>
+                <Row className="justify-content-around">
+                    {this.makeItems(this.state.items)}
+                </Row>
+            </Container>
+        );
     }
+
 }
 
-export default Carousel
-
+export default Carousel;
