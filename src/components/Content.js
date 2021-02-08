@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 
-function content(props) {
+function Content(props) {
     return (
         <div>
             <Container fluid={true}>
@@ -18,4 +18,4 @@ function content(props) {
     )
 }
 
-export default content
+export default Content
