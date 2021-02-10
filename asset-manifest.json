@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.b48a7467.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.ae304275.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.ae304275.chunk.js.map",
+    "runtime-main.js": "/React-Portfolio/static/js/runtime-main.f4c58082.js",
+    "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.f4c58082.js.map",
+    "static/css/2.658248ec.chunk.css": "/React-Portfolio/static/css/2.658248ec.chunk.css",
+    "static/js/2.25770b88.chunk.js": "/React-Portfolio/static/js/2.25770b88.chunk.js",
+    "static/js/2.25770b88.chunk.js.map": "/React-Portfolio/static/js/2.25770b88.chunk.js.map",
+    "static/js/3.28a9fda1.chunk.js": "/React-Portfolio/static/js/3.28a9fda1.chunk.js",
+    "static/js/3.28a9fda1.chunk.js.map": "/React-Portfolio/static/js/3.28a9fda1.chunk.js.map",
+    "index.html": "/React-Portfolio/index.html",
+    "static/css/2.658248ec.chunk.css.map": "/React-Portfolio/static/css/2.658248ec.chunk.css.map",
+    "static/css/main.b48a7467.chunk.css.map": "/React-Portfolio/static/css/main.b48a7467.chunk.css.map",
+    "static/js/2.25770b88.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.25770b88.chunk.js.LICENSE.txt",
+    "static/media/BudgetTracker.5f6dee0d.png": "/React-Portfolio/static/media/BudgetTracker.5f6dee0d.png",
+    "static/media/NutriVice.e8d971f9.png": "/React-Portfolio/static/media/NutriVice.e8d971f9.png",
+    "static/media/employeetracker.3357d2d5.png": "/React-Portfolio/static/media/employeetracker.3357d2d5.png",
+    "static/media/hot-restaurant.1960c5e1.png": "/React-Portfolio/static/media/hot-restaurant.1960c5e1.png",
+    "static/media/logo.6ce24c58.svg": "/React-Portfolio/static/media/logo.6ce24c58.svg",
+    "static/media/notetaker.05405372.png": "/React-Portfolio/static/media/notetaker.05405372.png",
+    "static/media/passwordgenerator.7219a819.png": "/React-Portfolio/static/media/passwordgenerator.7219a819.png",
+    "static/media/trailmix.d943ac74.png": "/React-Portfolio/static/media/trailmix.d943ac74.png",
+    "static/media/weatherdashboard.cec72e8c.png": "/React-Portfolio/static/media/weatherdashboard.cec72e8c.png",
+    "static/media/workday.6918731e.png": "/React-Portfolio/static/media/workday.6918731e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f4c58082.js",
+    "static/css/2.658248ec.chunk.css",
+    "static/js/2.25770b88.chunk.js",
+    "static/css/main.b48a7467.chunk.css",
+    "static/js/main.ae304275.chunk.js"
+  ]
+}
