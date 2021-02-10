@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import employeeTracker from "../assets/employeetracker.png";
 import hotRestaurant from "../assets/hot-restaurant.png";
 import trailMix from "../assets/trailmix.png";
+import NutriVice from "../assets/NutriVice.png";
+import BudgetTracker from "../assets/BudgetTracker.png";
 import weatherDashboard from "../assets/weatherdashboard.png";
 import workDay from "../assets/workday.png";
 import passwordGenerator from "../assets/passwordgenerator.png";
@@ -71,7 +73,21 @@ export class Carousel extends Component {
                     subTitle: "Nifty Note Taker",
                     link: "https://nifty--note-taker.herokuapp.com/",
                     selected: false
-                }                                
+                },{
+                    id: 7,
+                    title: "Nick Damario",
+                    imgSrc: NutriVice,
+                    subTitle: "NutriVice",
+                    link: "https://nifty--note-taker.herokuapp.com/",
+                    selected: false
+                },{
+                    id: 8,
+                    title: "Nick Damario",
+                    imgSrc: BudgetTracker,
+                    subTitle: "Budget Tracker",
+                    link: "https://fierce-mesa-93878.herokuapp.com/",
+                    selected: false
+                }                                                                                    
             ]
 
         }

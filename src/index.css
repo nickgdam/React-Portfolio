@@ -14,6 +14,7 @@ code {
 
 .nick-card {
   margin: 20px;
+  
 
 }
 .nick-card-image {
@@ -27,7 +28,7 @@ code {
 .nick-card-title {
   font-size: 24px;
   margin: 0px;
-
+  
 }
 
 .nick-card-info {
@@ -49,4 +50,12 @@ code {
 .err-msg {
   color: #EE6352;
   padding: 10px 15px;
+}
+
+.yeeter {
+  color: #25274d;
+}
+
+.yeeted{
+  background-color: #25274d ;
 }
