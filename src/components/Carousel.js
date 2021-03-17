@@ -24,18 +24,17 @@ export class Carousel extends Component {
                 {
                     id: 0,
                     title: "Nick Damario",
-                    imgSrc: employeeTracker,
-                    subTitle: "Employee Tracker App",
-                    link: "https://github.com/nickgdam/Employee-Tracker",
+                    imgSrc: BudgetTracker,
+                    subTitle: "Budget Tracker",
+                    link: "https://fierce-mesa-93878.herokuapp.com/",
                     selected: false
-
                 },
                 {
                     id: 1,
                     title: "Nick Damario",
-                    imgSrc: hotRestaurant,
-                    subTitle: "Restaraunt Reservation app",
-                    link: "http://hot-restaurant.herokuapp.com/tables",
+                    imgSrc: NutriVice,
+                    subTitle: "NutriVice",
+                    link: "https://nifty--note-taker.herokuapp.com/",
                     selected: false
                 },
                 {
@@ -76,17 +75,18 @@ export class Carousel extends Component {
                 },{
                     id: 7,
                     title: "Nick Damario",
-                    imgSrc: NutriVice,
-                    subTitle: "NutriVice",
-                    link: "https://nifty--note-taker.herokuapp.com/",
+                    imgSrc: hotRestaurant,
+                    subTitle: "Restaraunt Reservation app",
+                    link: "http://hot-restaurant.herokuapp.com/tables",
                     selected: false
                 },{
                     id: 8,
                     title: "Nick Damario",
-                    imgSrc: BudgetTracker,
-                    subTitle: "Budget Tracker",
-                    link: "https://fierce-mesa-93878.herokuapp.com/",
+                    imgSrc: employeeTracker,
+                    subTitle: "Employee Tracker App",
+                    link: "https://github.com/nickgdam/Employee-Tracker",
                     selected: false
+
                 }                                                                                    
             ]
 
