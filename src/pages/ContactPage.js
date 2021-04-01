@@ -67,7 +67,7 @@ class ContactPage extends React.Component {
 
     render() {
         return(
-            <div>
+            <div className='bear'>
                 <Hero title={this.props.title} />
 
                 <Content>

@@ -5,14 +5,14 @@ import Container from 'react-bootstrap/Container';
 
 function footer() {
     return (
-        <footer className="mt-5">
+        <footer className="dog">
             <Container>
                 <Row className="border-top justify-content-between p-3">
                     <Col className="p-0" md={3} sm={12}>
                         Nick Damario
                         </Col>
                     <Col className="p-0 d-flex justify-content-end" md={3}>
-                        This site was made by Nick Damario
+                        This site created by Nick Damario
                         </Col>
                 </Row>
             </Container>

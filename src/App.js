@@ -5,11 +5,13 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 import Footer from "./components/footer";
 import Home from "./pages/HomePage";
 import About from "./pages/AboutPage";
 import Contact from "./pages/ContactPage";
+// import Navbar from "./components/Navbar"
 
 
 
@@ -26,8 +28,8 @@ class App extends Component {
       home: {
         title: 'Portfolio',
         text: 'Projects',
-        subTitle: 'check my stuff!'
-        // text: 'Check out my Projects below'
+        subTitle: 'check my stuff!',
+        text: 'Check out my Projects below!'
 
       },
       about: {
@@ -45,7 +47,7 @@ class App extends Component {
     return (
       <Router>
         <Container className="p-0" fluid={true}>
-          <Navbar className='border-bottom' bg="transparent" expand="lg">
+          <Navbar className='secondary dog' bg="" expand="lg">
             <Navbar.Brand>Nick Damario</Navbar.Brand>
 
             <Navbar.Toggle className="border-0" aria-control="navbar-toggle" />

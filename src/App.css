@@ -37,3 +37,20 @@
     transform: rotate(360deg);
   }
 }
+
+.bear {
+  color: #def2f1;
+  background: #3aafa9;
+  border-bottom: none;
+  margin-bottom: 0;
+  margin-top:0;
+}
+
+.dog {
+  color: #17252a;
+  background-color: #def2f1;
+  border-bottom: none;
+  margin-bottom: 0;
+  margin-top:0;
+}
+
