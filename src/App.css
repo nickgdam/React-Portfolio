@@ -41,9 +41,6 @@
 .bear {
   color: #def2f1;
   background: #3aafa9;
-  border-bottom: none;
-  margin-bottom: 0;
-  margin-top:0;
 }
 
 .dog {
@@ -52,5 +49,15 @@
   border-bottom: none;
   margin-bottom: 0;
   margin-top:0;
+}
+.footer{
+  position: sticky;
+  left: 0;
+  bottom:0;
+  right:0;
+}
+
+.cont{
+  padding-bottom: 60px;
 }
 
