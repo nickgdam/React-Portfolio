@@ -66,15 +66,17 @@ class App extends Component {
             </Navbar.Collapse>
 
           </Navbar>
-          <Route path="/"  render={() => <Home title={this.state.home.title} subTitle={this.state.home.subtitle} text={this.state.home.text}/>}/>
+      
+          <Route path="/home" exact render={() => <Home title={this.state.home.title} subTitle={this.state.home.subtitle} text={this.state.home.text}/>}/>
           <Route path="/about" render={() => <About title={this.state.about.title}/>}/>
           <Route path="/contact" render={() => <Contact title={this.state.contact.title}/>}/>
 
 
 
-          <Footer className='footer'/>
+        
 
         </Container>
+        <Footer className='footer'/>
       </Router>
     );
   }
