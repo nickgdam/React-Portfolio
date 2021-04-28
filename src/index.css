@@ -60,8 +60,8 @@ code {
   padding: 10px 15px;
 }
 
-/* .footer{
-  position: sticky;
-  top: 100%;
-} */
-
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+ }
