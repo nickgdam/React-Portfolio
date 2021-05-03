@@ -40,7 +40,7 @@ class App extends Component {
         title: 'Contact Me'
 
       },
-      landing:{
+      landing: {
         title: 'Welcome to my page!',
         text: ''
       }
@@ -58,7 +58,7 @@ class App extends Component {
             <Navbar.Toggle className="border-0" aria-control="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
-                <Link className="nav-link" to="/home">Home</Link>
+                <Link className="nav-link" to="/">Home</Link>
                 <Link className="nav-link" to="/about">About</Link>
                 <Link className="nav-link" to="/contact">Contact</Link>
 
@@ -66,17 +66,23 @@ class App extends Component {
             </Navbar.Collapse>
 
           </Navbar>
-      
-          <Route path="/home" exact render={() => <Home title={this.state.home.title} subTitle={this.state.home.subtitle} text={this.state.home.text}/>}/>
-          <Route path="/about" render={() => <About title={this.state.about.title}/>}/>
-          <Route path="/contact" render={() => <Contact title={this.state.contact.title}/>}/>
+
+          <Route path="/" exact render={() => <Home title={this.state.home.title} subTitle={this.state.home.subtitle} text={this.state.home.text} />} />
+          <Route path="/about" render={() => <About title={this.state.about.title} />} />
+          <Route path="/contact" render={() => <Contact title={this.state.contact.title} />} />
 
 
 
-        
+
 
         </Container>
-        <Footer className='footer'/>
+
+        <div id="wrapper">
+          <div className="header"></div>
+          <div className="main-content"></div>
+          <div><Footer className='footer'/></div>
+        </div>
+
       </Router>
     );
   }
