@@ -12,8 +12,6 @@ import Home from "./pages/HomePage";
 import About from "./pages/AboutPage";
 import Contact from "./pages/ContactPage";
 
-// import Navbar from "./components/Navbar"
-
 
 
 class App extends Component {
@@ -74,15 +72,13 @@ class App extends Component {
 
 
 
+        
+          <div><Footer/></div>
+      
 
         </Container>
 
-        <div id="wrapper">
-          <div className="header"></div>
-          <div className="main-content"></div>
-          <div><Footer className='footer'/></div>
-        </div>
-
+ 
       </Router>
     );
   }

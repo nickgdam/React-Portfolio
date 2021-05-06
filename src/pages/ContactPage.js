@@ -56,9 +56,10 @@ export default function ContactUs() {
                             <input type="submit" value="Send" className="btn-primary"/>
                         </div>
                     </div>
-                    <Button/>
+                    
                 </Form>
             </div>
+            
         </div>
     );
 }
