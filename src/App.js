@@ -6,6 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Switch } from 'react-router';
 
 import Footer from "./components/footer";
 import Home from "./pages/HomePage";
@@ -49,7 +50,8 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <Container className="p-0" fluid={true}>
+        
+        {/* <Container className="p-0" fluid={true}> */}
           <Navbar className='secondary dog' bg="" expand="lg">
             <Navbar.Brand>Nick Damario</Navbar.Brand>
 
@@ -64,19 +66,21 @@ class App extends Component {
             </Navbar.Collapse>
 
           </Navbar>
+          <Switch>
 
           <Route path="/" exact render={() => <Home title={this.state.home.title} subTitle={this.state.home.subtitle} text={this.state.home.text} />} />
           <Route path="/about" render={() => <About title={this.state.about.title} />} />
           <Route path="/contact" render={() => <Contact title={this.state.contact.title} />} />
 
 
-
+          </Switch>
 
         
           <div><Footer/></div>
       
 
-        </Container>
+        {/* </Container> */}
+       
 
  
       </Router>
