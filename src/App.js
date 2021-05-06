@@ -34,10 +34,10 @@ class App extends Component {
 
       },
       about: {
-        title: 'About Me'
+        title: 'About'
       },
       contact: {
-        title: 'Contact Me'
+        title: 'Contact'
 
       },
       landing: {
