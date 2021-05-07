@@ -8,10 +8,12 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Switch } from 'react-router';
 
+// import Navbar from "./components/Navbar";
 import Footer from "./components/footer";
 import Home from "./pages/HomePage";
 import About from "./pages/AboutPage";
 import Contact from "./pages/ContactPage";
+
 
 
 
@@ -49,9 +51,10 @@ class App extends Component {
 
   render() {
     return (
+      <div>
       <Router>
+         <div>
         
-        {/* <Container className="p-0" fluid={true}> */}
           <Navbar className='secondary dog' bg="" expand="lg">
             <Navbar.Brand>Nick Damario</Navbar.Brand>
 
@@ -66,9 +69,11 @@ class App extends Component {
             </Navbar.Collapse>
 
           </Navbar>
+          </div>
           <Switch>
 
-          <Route path="/" exact render={() => <Home title={this.state.home.title} subTitle={this.state.home.subtitle} text={this.state.home.text} />} />
+          <Route path="/" exact render={() => <Home title={this.state.home.title} subTitle={this.state.home.subtitle} text={this.state.home.text} />}></Route>
+          <Route path="/React-Portfolio" exact render={() => <Home title={this.state.home.title} subTitle={this.state.home.subtitle} text={this.state.home.text} />}></Route>
           <Route path="/about" render={() => <About title={this.state.about.title} />} />
           <Route path="/contact" render={() => <Contact title={this.state.contact.title} />} />
 
@@ -84,6 +89,7 @@ class App extends Component {
 
  
       </Router>
+      </div>
     );
   }
 }
