@@ -73,7 +73,7 @@ class App extends Component {
           <Switch>
 
           <Route path="/" exact render={() => <Home title={this.state.home.title} subTitle={this.state.home.subtitle} text={this.state.home.text} />}></Route>
-          <Route path="/React-Portfolio" exact render={() => <Home title={this.state.home.title} subTitle={this.state.home.subtitle} text={this.state.home.text} />}></Route>
+          <Route path="/React-Portfolio" render={() => <Home title={this.state.home.title} subTitle={this.state.home.subtitle} text={this.state.home.text} />}></Route>
           <Route path="/about" render={() => <About title={this.state.about.title} />} />
           <Route path="/contact" render={() => <Contact title={this.state.contact.title} />} />
 
