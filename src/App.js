@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Switch } from 'react-router';
 
 // import Navbar from "./components/Navbar";
-import Footer from "./components/footer";
+import Footer from "./components/Footer";
 import Home from "./pages/HomePage";
 import About from "./pages/AboutPage";
 import Contact from "./pages/ContactPage";
@@ -38,7 +38,9 @@ class App extends Component {
         title: 'About'
       },
       contact: {
-        title: 'Contact'
+        title: 'Contact',
+        text: 'Enter your information below to email me directly.',
+        subtitle: 'My Contact Info'
 
       },
       landing: {

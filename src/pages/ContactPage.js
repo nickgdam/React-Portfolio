@@ -7,7 +7,7 @@ import Content from '../components/Content';
 import Axios from 'axios';
 import emailjs from "emailjs-com";
 
-export default function ContactUs() {
+function ContactPage(props) {
 
     function sendEmail(e) {
         e.preventDefault();
@@ -24,8 +24,14 @@ export default function ContactUs() {
     return (
         <div className="bear">
             <div className="container">
-                <h1>Contact</h1>
-                <div> Enter your information below to email me directly</div>
+                <Hero title={props.title} subtitle={props.subtitle}/>
+                <ul>
+                    <h3>My Information</h3>
+                    <li>Phone Number: (443)905-7293 </li>
+                    <li>Email: nickgdam@gmail.com</li>
+                </ul>
+                
+                <Content>Please use the form below to email me directly
                 <Form onSubmit={sendEmail}>
                     <div className="row pt-t mx-auto">
                         <div className="col-8 form-group mx-auto">
@@ -58,7 +64,12 @@ export default function ContactUs() {
                     </div>
                     
                 </Form>
+                </Content>
+                
             </div>
         </div>
+
+        
     );
 }
+export default ContactPage;
