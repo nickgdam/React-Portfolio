@@ -23,7 +23,7 @@ function ContactPage(props) {
 
     return (
         <div className="bear">
-            <div className="container">
+            <div className="bear">
                 <Hero title={props.title} subtitle={props.subtitle}/>
                 <ul>
                     <h3>My Information</h3>
@@ -31,8 +31,8 @@ function ContactPage(props) {
                     <li>Email: nickgdam@gmail.com</li>
                 </ul>
                 
-                <Content>Please use the form below to email me directly
-                <Form onSubmit={sendEmail}>
+                <Content >Please use the form below to email me directly
+                <Form  onSubmit={sendEmail}>
                     <div className="row pt-t mx-auto">
                         <div className="col-8 form-group mx-auto">
                             <div>
@@ -58,8 +58,8 @@ function ContactPage(props) {
                             </div>
                             <textarea type="text" name="message" />
                         </div>
-                        <div className="col-8 pt-3 mx-auto">
-                            <input type="submit" value="Send" className="btn-primary"/>
+                        <div className="col-8 pt-3 mx-auto bear">
+                            <input type="submit" value="Send" className="fish"/>
                         </div>
                     </div>
                     

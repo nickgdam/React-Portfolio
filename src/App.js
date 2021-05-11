@@ -57,7 +57,7 @@ class App extends Component {
       <Router>
          <div>
         
-          <Navbar className='secondary dog' bg="" expand="lg">
+          <Navbar className='dogHead' bg="" expand="lg">
             <Navbar.Brand>Nick Damario</Navbar.Brand>
 
             <Navbar.Toggle className="border-0" aria-control="navbar-toggle" />

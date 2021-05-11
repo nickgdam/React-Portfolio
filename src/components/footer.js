@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container';
 
 function Footer() {
     return (
-        <footer className="dog">
+        <footer className="dogTail">
             <Container>
                 <Row className="justify-content-between p-3 footer">
                     <Col className="p-0" md={3} sm={12}>
