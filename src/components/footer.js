@@ -5,21 +5,16 @@ import Container from 'react-bootstrap/Container';
 
 function Footer() {
     return (
-        <footer className="dogTail">
-            <Container>
-                <Row className="justify-content-between p-3 footer">
-                    <Col className="p-0" md={3} sm={12}>
-                        Nick Damario
-                        </Col>
-                    <Col className="p-0 d-flex justify-content-end" md={3}>
-                        This site created by Nick Damario
-                        </Col>
-                </Row>
-            </Container>
-
+   <footer className = "footer">
+            <div className = "footer-logo-container">
+               Nick Damario
+            </div>
+            <div className = "copywrite-containter">
+                <p className = "copywrite"> &copy;  2021 Nick Damario </p>
+            </div>
         </footer>
-        
     )
 }
 
+    
 export default Footer

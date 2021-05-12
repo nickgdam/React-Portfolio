@@ -6,6 +6,9 @@ import Hero from '../components/Hero';
 import Content from '../components/Content';
 import Axios from 'axios';
 import emailjs from "emailjs-com";
+import linkedIn from '../assets/linke.png'
+import gitHub from '../assets/github.png'
+import Fiverr from '../assets/fiverr.png'
 
 function ContactPage(props) {
 
@@ -29,10 +32,15 @@ function ContactPage(props) {
                     <h3>My Information</h3>
                     <li>Phone Number: (443)905-7293 </li>
                     <li>Email: nickgdam@gmail.com</li>
+                    <div className='spacer'></div>
+                  <a href="https://www.linkedin.com/in/nick-damario-9805341b3/" target='_blank'><img className="links" src={linkedIn}/></a> 
+                   <a href="https://github.com/nickgdam" target='_blank'><img className='links' src={gitHub}/></a> 
+                <a target="_blank" href='https://www.fiverr.com/nickdamario?public_mode=true'><img className='links' src={Fiverr}/></a>
+                
                 </ul>
                 
-                <Content>
-                   <div>Lets Keep in touch!</div> <div>Feel free to email me directly by filling out the form below!  </div> 
+                <Content className='yeet'>
+                   <div>Lets Keep in touch!</div> <div>Feel free to email me directly by filling out the form below.  </div> 
                 <Form  onSubmit={sendEmail}>
                     <div className="row pt-t mx-auto">
                         <div className="col-8 form-group mx-auto">
