@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.c71dfd1c.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.58584627.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.58584627.chunk.js.map",
+    "main.css": "/React-Portfolio/static/css/main.99c434d8.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.4b3580c3.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.4b3580c3.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.11ba7e49.js",
     "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.11ba7e49.js.map",
     "static/css/2.040c2062.chunk.css": "/React-Portfolio/static/css/2.040c2062.chunk.css",
-    "static/js/2.a0f37aeb.chunk.js": "/React-Portfolio/static/js/2.a0f37aeb.chunk.js",
-    "static/js/2.a0f37aeb.chunk.js.map": "/React-Portfolio/static/js/2.a0f37aeb.chunk.js.map",
+    "static/js/2.3be802bb.chunk.js": "/React-Portfolio/static/js/2.3be802bb.chunk.js",
+    "static/js/2.3be802bb.chunk.js.map": "/React-Portfolio/static/js/2.3be802bb.chunk.js.map",
     "static/js/3.17af2959.chunk.js": "/React-Portfolio/static/js/3.17af2959.chunk.js",
     "static/js/3.17af2959.chunk.js.map": "/React-Portfolio/static/js/3.17af2959.chunk.js.map",
     "index.html": "/React-Portfolio/index.html",
     "static/css/2.040c2062.chunk.css.map": "/React-Portfolio/static/css/2.040c2062.chunk.css.map",
-    "static/css/main.c71dfd1c.chunk.css.map": "/React-Portfolio/static/css/main.c71dfd1c.chunk.css.map",
-    "static/js/2.a0f37aeb.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.a0f37aeb.chunk.js.LICENSE.txt",
+    "static/css/main.99c434d8.chunk.css.map": "/React-Portfolio/static/css/main.99c434d8.chunk.css.map",
+    "static/js/2.3be802bb.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.3be802bb.chunk.js.LICENSE.txt",
     "static/media/BudgetTracker.5f6dee0d.png": "/React-Portfolio/static/media/BudgetTracker.5f6dee0d.png",
     "static/media/NutriVice.e8d971f9.png": "/React-Portfolio/static/media/NutriVice.e8d971f9.png",
     "static/media/employeetracker.3357d2d5.png": "/React-Portfolio/static/media/employeetracker.3357d2d5.png",
+    "static/media/github.77a97279.png": "/React-Portfolio/static/media/github.77a97279.png",
     "static/media/hot-restaurant.1960c5e1.png": "/React-Portfolio/static/media/hot-restaurant.1960c5e1.png",
     "static/media/image-1.f7e5e7dd.jpg": "/React-Portfolio/static/media/image-1.f7e5e7dd.jpg",
     "static/media/logo.6ce24c58.svg": "/React-Portfolio/static/media/logo.6ce24c58.svg",
@@ -29,8 +30,8 @@
   "entrypoints": [
     "static/js/runtime-main.11ba7e49.js",
     "static/css/2.040c2062.chunk.css",
-    "static/js/2.a0f37aeb.chunk.js",
-    "static/css/main.c71dfd1c.chunk.css",
-    "static/js/main.58584627.chunk.js"
+    "static/js/2.3be802bb.chunk.js",
+    "static/css/main.99c434d8.chunk.css",
+    "static/js/main.4b3580c3.chunk.js"
   ]
 }
