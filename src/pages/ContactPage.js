@@ -31,7 +31,8 @@ function ContactPage(props) {
                     <li>Email: nickgdam@gmail.com</li>
                 </ul>
                 
-                <Content >Please use the form below to email me directly
+                <Content>
+                   <div>Lets Keep in touch!</div> <div>Feel free to email me directly by filling out the form below!  </div> 
                 <Form  onSubmit={sendEmail}>
                     <div className="row pt-t mx-auto">
                         <div className="col-8 form-group mx-auto">
