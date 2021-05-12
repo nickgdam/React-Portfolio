@@ -38,9 +38,10 @@ function ContactPage(props) {
                 <a target="_blank" href='https://www.fiverr.com/nickdamario?public_mode=true'><img className='links' src={Fiverr}/></a>
                 
                 </ul>
-                
-                <Content className='yeet'>
-                   <div>Lets Keep in touch!</div> <div>Feel free to email me directly by filling out the form below.  </div> 
+                <div className='yeet'>
+            
+                <Content>
+                   <h3>Lets Keep in touch!</h3> <p>Feel free to email me directly by filling out the form below. </p><div> </div> 
                 <Form  onSubmit={sendEmail}>
                     <div className="row pt-t mx-auto">
                         <div className="col-8 form-group mx-auto">
@@ -67,13 +68,14 @@ function ContactPage(props) {
                             </div>
                             <textarea type="text" name="message" />
                         </div>
-                        <div className="col-8 pt-3 mx-auto bear">
+                        <div className="col-8 pt-3 mx-auto bear yeet">
                             <input type="submit" value="Send" className="fish"/>
                         </div>
                     </div>
                     
                 </Form>
                 </Content>
+                </div>
                 
             </div>
         </div>

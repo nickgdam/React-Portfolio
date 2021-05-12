@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   
+  
 }
 
 .App-logo {
@@ -62,7 +63,11 @@
   display:block;
   height: 50px;
   width: 80px;
-  border-radius: 12px;
+  border-radius: 10px;
+  border-color: #17252a;
+  margin:auto;
+  text-align: center;
+  
 }
 
 .spacer{
@@ -81,7 +86,10 @@
 }
 
 .yeet{
-  float: right;
+ text-align: center;
+  margin: auto;
+
+  
 }
 
 .footer {
