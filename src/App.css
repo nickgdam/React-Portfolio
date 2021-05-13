@@ -77,6 +77,13 @@
 
 .yeeter{
   max-width: 100%;
+  border: #222629 10px solid;
+  border-radius: 5%;
+  margin: auto;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .links{
@@ -86,7 +93,9 @@
 }
 
 .info{
-  padding-left: 200px;
+  
+max-width: 100%;
+
 }
 
 .yeet{
@@ -122,4 +131,5 @@
   margin-right: 20px;
   color: #222629;
 }
+
 
