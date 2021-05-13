@@ -28,6 +28,7 @@ function ContactPage(props) {
         <div className="bear">
             <div className="bear">
                 <Hero title={props.title} subtitle={props.subtitle}/>
+                <div className='info'>
                 <ul>
                     <h3>My Information</h3>
                     <li>Phone Number: (443)905-7293 </li>
@@ -38,10 +39,12 @@ function ContactPage(props) {
                 <a target="_blank" href='https://www.fiverr.com/nickdamario?public_mode=true'><img className='links' src={Fiverr}/></a>
                 
                 </ul>
+                </div>
                 <div className='yeet'>
             
                 <Content>
-                   <h3>Lets Keep in touch!</h3> <p>Feel free to email me directly by filling out the form below. </p><div> </div> 
+                   <h3>Lets Keep in touch!</h3>
+                    <p>Feel free to email me directly by filling out the form below. </p><div> </div> 
                 <Form  onSubmit={sendEmail}>
                     <div className="row pt-t mx-auto">
                         <div className="col-8 form-group mx-auto">

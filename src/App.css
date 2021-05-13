@@ -59,7 +59,7 @@
 
 .fish{
   color: #17252a;
-  background-color: #86c232;
+  background: linear-gradient(180deg, #86c232 0%,#61892f 100% );
   display:block;
   height: 50px;
   width: 80px;
@@ -83,6 +83,10 @@
   width: 70px;
   height: 70px;
   padding: 10px;
+}
+
+.info{
+  padding-left: 200px;
 }
 
 .yeet{
