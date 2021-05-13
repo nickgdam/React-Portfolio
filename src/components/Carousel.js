@@ -34,7 +34,7 @@ export class Carousel extends Component {
                     title: "Nick Damario",
                     imgSrc: NutriVice,
                     subTitle: "NutriVice",
-                    link: "https://nifty--note-taker.herokuapp.com/",
+                    link: "https://nutrivice.herokuapp.com/",
                     selected: false
                 },
                 {
