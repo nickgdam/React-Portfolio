@@ -46,6 +46,14 @@
   font-family: 'Open Sans', 'sans-serif';
 }
 
+.projects {
+  color: #d3e3fc;
+  background: #222629;
+  min-height: 20vh;
+  font-family: 'Open Sans', 'sans-serif';
+  max-width: 100%;
+}
+
 .dogHead {
   color: #222629;
   background: linear-gradient(180deg, #86c232 0%,#61892f 100% );
@@ -93,7 +101,7 @@
 }
 
 .info{
-  
+  text-align: center;
 max-width: 100%;
 
 }
