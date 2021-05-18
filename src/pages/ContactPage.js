@@ -28,21 +28,20 @@ function ContactPage(props) {
         <div className="bear">
             <div className="bear">
                 <Hero title={props.title} subtitle={props.subtitle}/>
-                <div className='info'>
-                <ul>
+               
+                <div className='yeet'>
+            
+                <Content>
+                
+                <div>
                     <h3>My Information</h3>
-                    <li>Phone Number: (443)905-7293 </li>
-                    <li>Email: nickgdam@gmail.com</li>
+                    <p>Phone Number: (443)905-7293 </p>
+                    <p>Email: nickgdam@gmail.com</p>
                     <div className='spacer'></div>
                   <a href="https://www.linkedin.com/in/nick-damario-9805341b3/" target='_blank'><img className="links" src={linkedIn}/></a> 
                    <a href="https://github.com/nickgdam" target='_blank'><img className='links' src={gitHub}/></a> 
                 <a target="_blank" href='https://www.fiverr.com/nickdamario?public_mode=true'><img className='links' src={Fiverr}/></a>
-                
-                </ul>
                 </div>
-                <div className='yeet'>
-            
-                <Content>
                    <h3>Lets Keep in touch!</h3>
                     <p>Feel free to email me directly by filling out the form below. </p><div> </div> 
                 <Form  onSubmit={sendEmail}>
